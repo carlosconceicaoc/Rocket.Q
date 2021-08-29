@@ -66,3 +66,20 @@ input, button, .button{
     width: 100%;
     height: 1px;
 }
+
+/* Criação das bolinhas do BG */
+.ball{
+    width: 21.2rem;
+    height: 21.2rem;
+    background: var(--blue);
+    clip-path: circle(50% at 50% 50%);
+    position: fixed;
+}
+
+.ball.top {
+
+}
+
+.ball.bottom {
+
+}
