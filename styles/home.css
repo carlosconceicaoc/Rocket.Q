@@ -14,16 +14,18 @@ header {
 #bg{
     grid-area: left;
     background: url('/assets/home-bg-img.svg') no-repeat top/contain;
+    background-position: -10rem;
 }
 
 main{
     grid-area: right;
     display: flex;
     align-items: center;
+    margin-top: -12rem;
 }
 
 main .container {
-    width: min(36.3rem 100%);
+    width: min(36.3rem, 100%);
 }
 
 main h2{
@@ -42,4 +44,25 @@ input {
 input, button, .button{
     width: 100%;
     margin-bottom: 1.8rem;
+}
+/* Separator line */
+.separator {
+    align-items: center;
+    display: flex;
+    margin: 4rem 0;
+}
+
+.separator div:nth-child(2) {
+    color: var(--grey-blue);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0 1.35rem;
+    line-height: 0;
+}
+
+/* Aplicando estilos a div 1 e 3 do separador */
+.separator div:nth-child(1), .separator div:nth-child(3) {
+    background: var(--grey-blue);
+    width: 100%;
+    height: 1px;
 }

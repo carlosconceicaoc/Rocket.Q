@@ -8,6 +8,7 @@
 }
 
 html {
+    /* Variáveis CSS */
     --black: #0D114F;
     --white: #FAFAFA;
     --red: #E83F5B;
@@ -26,8 +27,8 @@ html {
 }
 
 body {
-    height: 100vh; /* view height / Altura da tela (Verticalmente) */
-    width: 100vw; /* view width * Largura da tela (Horizontalmente) */
+    display: flex;
+    height: 100vh; /* view height / Altura da tela (Verticalmente) */   
     background: var(--background);
 }
 
@@ -84,7 +85,7 @@ button:hover, .button:hover{
     filter: brightness(1.2);
 }
 
-button > img .button > img{
+button > img, .button > img{
     margin-right: 1rem;
     width: 2rem;
 }
