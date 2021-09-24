@@ -1,0 +1,24 @@
+{
+  "name": "Rocket.Q",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anônimas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosconceicaoc/Rocket.Q.git"
+  },
+  "keywords": [],
+  "author": "Carlos Conceição",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosconceicaoc/Rocket.Q/issues"
+  },
+  "homepage": "https://github.com/carlosconceicaoc/Rocket.Q#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
